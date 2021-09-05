@@ -4,9 +4,9 @@
 set -e
 
 git add .
-if [ $1 != '' ]
+if [ '$1' != '' ]
 then
-  git commit -m $1 # bash gipush.sh xxx
+  git commit -m '$1' # bash gipush.sh xxx
 else
   git commit -m 'document commit'
 fi

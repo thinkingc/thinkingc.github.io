@@ -100,6 +100,7 @@ const sidebar = {
         '/npm/node/get-port',
         '/npm/node/tiny-warning',
         '/npm/node/tiny-invariant',
+        '/npm/node/signale',
       ]
     },
     {

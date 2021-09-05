@@ -14,12 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # 切换到master分支
-      - name: checkout
+      - name: Checkout
         uses: actions/checkout@master
         with:
           persist-credentials: false
       # 使用 node: 12
-      - name: setup-node
+      - name: Setup-node
         uses: actions/setup-node@v1
         with:
           node-version: '12.x'

@@ -157,7 +157,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Front-End Document',
+  title: '前端知识库',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */

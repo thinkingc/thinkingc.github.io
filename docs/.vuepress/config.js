@@ -101,6 +101,7 @@ const sidebar = {
         '/npm/node/np',
         '/npm/node/tiny-warning',
         '/npm/node/tiny-invariant',
+        '/npm/node/npm-run-all',
       ]
     },
     {

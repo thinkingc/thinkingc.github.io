@@ -110,6 +110,7 @@ const sidebar = {
       children: [
         '/npm/util/mustache',
         '/npm/util/lru',
+        '/npm/util/array-move',
       ]
     },
     {

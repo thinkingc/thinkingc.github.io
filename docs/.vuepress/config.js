@@ -47,10 +47,16 @@ const sidebar = {
   react: [
     {
       title: '面试题',
-      collapsable: false,
+      collapsable: true,
       children: [
-        '/react/',
-        '/react/react17-changelog',
+        '/react/interview/react17-changelog',
+      ]
+    },
+    {
+      title: 'hooks',
+      collapsable: true,
+      children: [
+        '/react/hooks/use-async-effect',
       ]
     }
   ],
@@ -70,9 +76,10 @@ const sidebar = {
       children: [
         '/npm/node/dotenv',
         '/npm/node/chalk',
+        '/npm/node/minimist',
         '/npm/node/yargs',
         '/npm/node/yargs-parser',
-        '/npm/node/minimist',
+        '/npm/node/minimatch',
         '/npm/node/glob',
         '/npm/node/globby',
         '/npm/node/ora',

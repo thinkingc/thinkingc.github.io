@@ -274,7 +274,7 @@ module.exports = {
     '@vuepress/nprogress',
     '@vuepress/last-updated',
     ['vuepress-plugin-code-copy', {
-      align: 'bottom',
+      align: 'top',
       color: '#27b1ff',
       backgroundColor: '#0075b8',
       successText: 'Copied!',

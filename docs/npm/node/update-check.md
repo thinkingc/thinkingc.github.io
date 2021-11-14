@@ -24,3 +24,6 @@ if (update) {
     console.log(`The latest version is ${update.latest}. Please update!`);
 }
 ```
+
+## 参考
+[update-check](https://www.npmjs.com/package/update-check)

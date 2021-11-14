@@ -102,6 +102,8 @@ const sidebar = {
         '/npm/node/marked-terminal',
         '/npm/node/address',
         '/npm/node/get-port',
+        '/npm/node/read-pkg-up',
+        '/npm/node/find-up',
         '/npm/node/tar-pack',
         '/npm/node/tmp',
         '/npm/node/validate-npm-package-name',
@@ -117,6 +119,7 @@ const sidebar = {
       collapsable: true,
       children: [
         '/npm/util/mustache',
+        '/npm/util/papaparse',
         '/npm/util/lru',
         '/npm/util/array-move',
       ]

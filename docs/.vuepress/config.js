@@ -102,6 +102,7 @@ const sidebar = {
         '/npm/node/marked-terminal',
         '/npm/node/address',
         '/npm/node/get-port',
+        '/npm/node/pkg-up',
         '/npm/node/read-pkg-up',
         '/npm/node/find-up',
         '/npm/node/tar-pack',
@@ -195,7 +196,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: 'https://github.com/thinkingc/vuepress-docs.git',
+    repo: 'git@github.com:thinkingc/thinkingc.github.io.git',
     editLinks: true,
     docsDir: 'docs',
     // 假如你的文档仓库和项目本身不在一个仓库：
@@ -278,7 +279,7 @@ module.exports = {
     '@vuepress/nprogress',
     '@vuepress/last-updated',
     ['vuepress-plugin-code-copy', {
-      align: 'top',
+      align: 'bottom',
       color: '#27b1ff',
       backgroundColor: '#0075b8',
       successText: 'Copied!',

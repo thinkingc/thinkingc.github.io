@@ -116,6 +116,13 @@ const sidebar = {
       ]
     },
     {
+      title: 'tool',
+      collapsable: true,
+      children: [
+        '/npm/tool/chokidar',
+      ]
+    },
+    {
       title: 'util',
       collapsable: true,
       children: [

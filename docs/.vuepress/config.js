@@ -26,6 +26,13 @@ const sidebar = {
       ]
     },
     {
+      title: '知识合集',
+      collapsable: false,
+      children: [
+        '/ts/collection/decorator',
+      ]
+    },
+    {
       title: '面试题',
       collapsable: false,
       children: [
@@ -130,6 +137,7 @@ const sidebar = {
         '/npm/util/papaparse',
         '/npm/util/lru',
         '/npm/util/array-move',
+        '/npm/util/lz-string',
       ]
     },
     {

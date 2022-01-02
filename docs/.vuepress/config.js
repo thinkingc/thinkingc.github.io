@@ -60,12 +60,20 @@ const sidebar = {
       ]
     },
     {
-      title: 'hooks',
+      title: 'Hooks',
       collapsable: true,
       children: [
         '/react/hooks/use-async-effect',
       ]
-    }
+    },
+    {
+      title: 'Components',
+      collapsable: true,
+      children: [
+        '/react/components/time-period-selector',
+        '/react/components/react-selectable-fast',
+      ]
+    },
   ],
   npm: [
     {

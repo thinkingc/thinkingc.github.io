@@ -72,6 +72,7 @@ const sidebar = {
       children: [
         '/react/components/time-period-selector',
         '/react/components/react-selectable-fast',
+        '/react/components/react-resizable',
       ]
     },
   ],

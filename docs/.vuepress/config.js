@@ -147,6 +147,7 @@ const sidebar = {
         '/npm/util/lru',
         '/npm/util/array-move',
         '/npm/util/lz-string',
+        '/npm/util/copy-to-clipboard',
       ]
     },
     {
